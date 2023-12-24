@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with Netflix GPT App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Features
+- Login/signup authentication Page
 
 ## Available Scripts
 

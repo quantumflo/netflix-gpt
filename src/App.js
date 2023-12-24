@@ -1,12 +1,7 @@
+import Body from "./components/Body";
 
 function App() {
-  return (
-    <div>
-    <div className="text-3xl underline ">
-      Hello world!
-    </div>
-    </div>
-  );
+  return <Body />;
 }
 
 export default App;
