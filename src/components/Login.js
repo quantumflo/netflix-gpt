@@ -52,12 +52,14 @@ const Login = () => {
     }
   };
 
+  const loginType = signupForm ? "Sign Up" : "Sign In";
+
   return (
     <div>
       <Header />
       <img className="" src={NF_BG_IMG} alt="Netflix background" />
       <form className="absolute top-1/2 w-[27rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-lg  bg-black p-6">
-        <h1 className="text-white text-4xl mb-4 font-bold">{signupForm ? "Sign Up" : "Sign In"}</h1>
+        <h1 className="text-white text-4xl mb-4 font-bold">{loginType}</h1>
         {signupForm && (
           <>
             <input
@@ -86,7 +88,7 @@ const Login = () => {
           onClick={handleLogin}
           className="bg-red-600 hover:bg-red-700 text-white rounded-md px-8 py-4 text-2xl w-96"
         >
-          Sign In
+          {loginType}
         </button>
         {signupForm ? (
           <p className="text-white text-xl mt-4">
