@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.overflow-x-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.zoom {
+    transition: transform .5s;
+  }
+
+.zoom:hover {
+    transform: scale(1.2);
+  }
