@@ -5,6 +5,8 @@ import Browse from "./components/Browse";
 import Login from "./components/Login";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
+import ProtectedRoute from "./components/ProtectedRoute";
+import GptSearchPage from "./components/GptSearchPage";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,11 +21,18 @@ const router = createBrowserRouter([
         element: <Browse />,
       },
     ],
-  }
+  },
+  {
+    path: "gpt-search",
+    element: (
+      <ProtectedRoute>
+        <GptSearchPage />
+      </ProtectedRoute>
+    ),
+  },
 ]);
 
 const App = () => {
-
   return (
     <Provider store={appStore}>
       <RouterProvider router={router}>
