@@ -1,5 +1,5 @@
 import { Outlet, useNavigate } from "react-router-dom";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { login, logout } from "../redux/userSlice";
 import { useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
@@ -8,6 +8,7 @@ import { auth } from "../utils/firebase.config";
 const Body = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const gptSearch = useSelector((state) => state.gpt.gptSearch);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -21,11 +22,14 @@ const Body = () => {
             displayName: u.displayName,
           })
         );
-        navigate("/browse");
+        // not working bcz on refresh the redux state is lost so wont ever navigate to /gpt-search
+        // how can i do this
+        gptSearch? navigate("/gpt-search") : navigate("/browse");
+
       } else {
         // User is signed out
         dispatch(logout());
-        navigate("/");
+         navigate("/");
       }
     });
 
