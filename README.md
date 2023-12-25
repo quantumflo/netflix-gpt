@@ -3,11 +3,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Features
+- Respnsive UI
 - Login/signup authentication Page
-- Firebase deployment
+- GPT Movie recommendation using Open AI API's
 - React router dom for routing
 - Redux store 
 - TMDB API's for movie data
+- Now playing, Top rated, Upcoming, Popular sections
+- Firebase deployment
+
+
+
 
 ## Available Scripts
 
