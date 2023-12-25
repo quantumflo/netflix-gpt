@@ -31,7 +31,7 @@ const Login = () => {
         .then((userCredential) => {
           // Signed up
           const user = userCredential.user;
-          console.log("USER: ", user);
+          // console.log("USER: ", user);
           return updateProfile(user, { displayName: name });
         })
         .catch((error) => {
@@ -57,7 +57,7 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <img className="" src={NF_BG_IMG} alt="Netflix background" />
+      <img className="brightness-50" src={NF_BG_IMG} alt="Netflix background" />
       <form className="absolute top-1/2 w-[27rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-lg  bg-black p-6">
         <h1 className="text-white text-4xl mb-4 font-bold">{loginType}</h1>
         {signupForm && (
