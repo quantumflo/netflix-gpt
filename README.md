@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Features
 - Login/signup authentication Page
+- Firebase deployment
+- React router dom for routing
+- Redux store 
+- TMDB API's for movie data
 
 ## Available Scripts
 
