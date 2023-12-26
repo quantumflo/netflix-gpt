@@ -40,7 +40,7 @@ const GptSearchBar = () => {
         <input
           onChange={(e) => setValue(e.target.value)}
           autoFocus
-          className="cursor-pointer rounded-l-lg p-4 w-1/2 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
+          className="cursor-text rounded-l-lg p-4 w-1/2 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
           placeholder="Which movie do you want to watch today?"
         />
         <button
