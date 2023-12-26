@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const GptSearchPage = () => {
   return (
-    <div>
+    <div className="bg-black">
       <Header />
       <GptSearchBar />
       <GptMovieRecommendation />
