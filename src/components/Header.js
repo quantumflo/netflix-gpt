@@ -35,7 +35,7 @@ const Header = () => {
             <Link to="/browse">
               <button
                 onClick={handleGptSearchClick}
-                className="mt-6 h-16 rounded-sm mr-4 p-4 zoom cursor-pointer bg-darkseagreen text-white font-medium inline"
+                className="mt-6 h-16 rounded-sm mr-4 p-4 zoom gptButton cursor-pointer bg-darkseagreen text-white font-medium inline"
               >
                 <img src={HOME} alt="Open AI" className="w-12 inline mr-2" />
                 HOME
@@ -45,7 +45,7 @@ const Header = () => {
             <Link to="/gpt-search">
               <button
                 onClick={handleGptSearchClick}
-                className="mt-6 h-16 rounded-sm mr-4 p-4 zoom cursor-pointer bg-darkseagreen text-white font-medium inline"
+                className="mt-6 h-16 rounded-sm mr-4 p-4 zoom gptButton cursor-pointer bg-darkseagreen text-white font-medium inline"
               >
                 <img src={OPEN_AI_LOGO} alt="Open AI" className="w-10 inline mr-2" />
                 GPT Search
