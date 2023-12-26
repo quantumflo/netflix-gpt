@@ -13,7 +13,6 @@ const useMovieTrailer = (movieId) => {
       const trailer = data.results.find(
         (video) => video.type === "Trailer" && video.site === "YouTube"
       );
-      console.log("trailer", trailer);
       const youtubeUrl = `https://www.youtube.com/embed/${trailer.key}?autoplay=1&controls=0&showinfo=0&mute=1`;
       setTrailer(youtubeUrl);
     };
