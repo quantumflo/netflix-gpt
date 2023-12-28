@@ -25,7 +25,6 @@ const GptSearchBar = () => {
       messages: [{ role: "user", content: query }],
       model: "gpt-3.5-turbo",
     });
-    console.log(chatCompletion.choices[0].message.content.split(","));
 
     const movieNames = chatCompletion.choices[0].message.content.split(",");
 

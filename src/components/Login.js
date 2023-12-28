@@ -31,7 +31,6 @@ const Login = () => {
         .then((userCredential) => {
           // Signed up
           const user = userCredential.user;
-          // console.log("USER: ", user);
           return updateProfile(user, { displayName: name });
         })
         .catch((error) => {
