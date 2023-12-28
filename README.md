@@ -3,17 +3,26 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Features
-- Respnsive UI
-- Login/signup authentication Page
-- GPT Movie recommendation using Open AI API's
-- React router dom for routing
-- Redux store 
-- TMDB API's for movie data
-- Now playing, Top rated, Upcoming, Popular sections
-- Firebase deployment
+**Authentication:**
+Implement a secure login/signup authentication page for user access using firebase auth API's
 
+**GPT Movie Recommendation:**
+Utilize OpenAI API's to incorporate GPT-based movie recommendations, offering personalized suggestions to users.
 
+**Routing with React Router DOM:**
+Implement seamless navigation and user experience with React Router DOM for efficient and dynamic page routing.
 
+**State Management with Redux:**
+Utilize Redux store for effective state management, ensuring a centralized and scalable approach to handle application data.
+
+**TMDB API Integration:
+**Integrate TMDB API's to fetch and display movie data, enhancing the application with comprehensive and up-to-date information.
+
+**Movie Sections:**
+Include dedicated sections such as Now Playing, Top Rated, Upcoming, and Popular to provide users with a diverse selection of movies based on their preferences.
+
+**Firebase Deployment:**
+Deploy the application on Firebase for efficient hosting, ensuring reliability and scalability for users accessing the platform.
 
 ## Available Scripts
 
