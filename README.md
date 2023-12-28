@@ -16,7 +16,7 @@ Implement seamless navigation and user experience with React Router DOM for effi
 Utilize Redux store for effective state management, ensuring a centralized and scalable approach to handle application data.
 
 **TMDB API Integration:**
-Integrate TMDB API's to fetch and display movie data, enhancing the application with comprehensive and up-to-date information.
+Integrate TMDB API's for movie data with up-to-date information.
 
 **Movie Sections:**
 Include dedicated sections such as Now Playing, Top Rated, Upcoming, and Popular to provide users with a diverse selection of movies based on their preferences.
