@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Implement a secure login/signup authentication page for user access using firebase auth API's
 
 **GPT Movie Recommendation:**
-Utilize OpenAI API's to incorporate GPT-based movie recommendations, offering personalized suggestions to users.
+Utilize OpenAI API's to incorporate GPT-based movie recommendations using search, offering personalized suggestions to users.
 
 **Routing with React Router DOM:**
 Implement seamless navigation and user experience with React Router DOM for efficient and dynamic page routing.
