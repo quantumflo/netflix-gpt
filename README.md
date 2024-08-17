@@ -3,17 +3,26 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Features
-- Respnsive UI
-- Login/signup authentication Page
-- GPT Movie recommendation using Open AI API's
-- React router dom for routing
-- Redux store 
-- TMDB API's for movie data
-- Now playing, Top rated, Upcoming, Popular sections
-- Firebase deployment
+**Authentication:**
+Implement a secure login/signup authentication page for user access using firebase auth API's
 
+**GPT Movie Recommendation:**
+Utilize OpenAI API's to incorporate GPT-based movie recommendations using search, offering personalized suggestions to users.
 
+**Routing with React Router DOM:**
+Implement seamless navigation and user experience with React Router DOM for efficient and dynamic page routing.
 
+**State Management with Redux:**
+Utilize Redux store for effective state management, ensuring a centralized and scalable approach to handle application data.
+
+**TMDB API Integration:**
+Integrate TMDB API's for movie data with up-to-date information.
+
+**Movie Sections:**
+Include dedicated sections such as Now Playing, Top Rated, Upcoming, and Popular to provide users with a diverse selection of movies based on their preferences.
+
+**Firebase Deployment:**
+Deploy the application on Firebase for efficient hosting, ensuring reliability and scalability for users accessing the platform.
 
 ## Available Scripts
 
@@ -26,11 +35,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -66,15 +70,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+
+Deployed using firebase 
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
