@@ -1,6 +1,5 @@
-import { useEffect } from "react";
-import MovieCategory from "./MovieCategory";
 import { useSelector } from "react-redux";
+import MovieCategory from "./MovieCategory";
 
 const SecondaryContainer = () => {
   const nowPlayingMovies = useSelector((store) => store.movies?.nowPlayingMovies);

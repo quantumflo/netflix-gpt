@@ -1,7 +1,7 @@
-import { GET_MOVIES_OPTIONS, GET_POPULAR_MOVIES_URL } from "../utils/constants";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addPopularMovies } from "../redux/movieSlice";
+import { GET_MOVIES_OPTIONS, GET_POPULAR_MOVIES_URL } from "../utils/constants";
 
 const usePopularMovies = () => {
   const dispatch = useDispatch();

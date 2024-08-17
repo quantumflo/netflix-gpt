@@ -1,4 +1,4 @@
-import  useMovieTrailer  from "../hooks/useMovieTrailer";
+import useMovieTrailer from "../hooks/useMovieTrailer";
 
 const TrailerVideo = ({ movieId }) => {
 const trailer = useMovieTrailer(movieId);

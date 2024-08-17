@@ -1,7 +1,7 @@
-import { GET_MOVIES_OPTIONS, GET_NOW_PLAYING_MOVIES_URL } from "../utils/constants";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addNowPlayingMovies } from "../redux/movieSlice";
+import { GET_MOVIES_OPTIONS, GET_NOW_PLAYING_MOVIES_URL } from "../utils/constants";
 
 const useNowPlayingMovies = () => {
   const dispatch = useDispatch();

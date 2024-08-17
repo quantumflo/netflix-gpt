@@ -1,9 +1,9 @@
-import { NF_LOGO, USER_IMG, HOME, OPEN_AI_LOGO, OPEN_AI_LOGO_2 } from "../utils/constants";
 import { signOut } from "firebase/auth";
-import { auth } from "../utils/firebase.config";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { toggleGptSearch } from "../redux/gptSlice";
+import { HOME, NF_LOGO, OPEN_AI_LOGO, USER_IMG } from "../utils/constants";
+import { auth } from "../utils/firebase.config";
 
 const Header = () => {
   const isLoggedIn = useSelector((state) => state.user);

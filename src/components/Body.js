@@ -1,8 +1,8 @@
-import { Outlet, useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { login, logout } from "../redux/userSlice";
-import { useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Outlet, useNavigate } from "react-router-dom";
+import { login, logout } from "../redux/userSlice";
 import { auth } from "../utils/firebase.config";
 
 const Body = () => {

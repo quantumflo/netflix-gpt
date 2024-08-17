@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { openai } from "../utils/openai";
-import { GET_MOVIES_OPTIONS } from "../utils/constants";
 import { useDispatch } from "react-redux";
 import { addGptMovies } from "../redux/gptSlice";
+import { GET_MOVIES_OPTIONS } from "../utils/constants";
+import { openai } from "../utils/openai";
 
 const GptSearchBar = () => {
   const [value, setValue] = useState("");

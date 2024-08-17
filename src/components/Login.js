@@ -1,13 +1,13 @@
-import Header from "./Header";
-import { NF_BG_IMG } from "../utils/constants";
-import { useRef, useState } from "react";
-import { loginValidation } from "../utils/validation";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   updateProfile,
 } from "firebase/auth";
+import { useRef, useState } from "react";
+import { NF_BG_IMG } from "../utils/constants";
 import { auth } from "../utils/firebase.config";
+import { loginValidation } from "../utils/validation";
+import Header from "./Header";
 const Login = () => {
   const [signupForm, setSignupForm] = useState(false);
   const [errorMsg, setErrorMsg] = useState(null);

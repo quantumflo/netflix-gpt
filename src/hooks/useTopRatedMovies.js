@@ -1,7 +1,7 @@
-import { GET_MOVIES_OPTIONS, GET_TOP_RATED_MOVIES_URL } from "../utils/constants";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addTopRatedMovies } from "../redux/movieSlice";
+import { GET_MOVIES_OPTIONS, GET_TOP_RATED_MOVIES_URL } from "../utils/constants";
 
 const useTopRatedMovies = () => {
     const dispatch = useDispatch();
