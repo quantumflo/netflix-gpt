@@ -10,6 +10,6 @@ const GptSearchPage = () => {
       <GptRecommendedMovies />
     </div>
   );
-}
+};
 
 export default GptSearchPage;
